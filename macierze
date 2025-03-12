@@ -1,0 +1,39 @@
+
+import numpy as np
+
+#definiowanie macierzy
+ar1 = np.array([[5,3,6,4],[1,7,4,1],[9,2,8,5]])
+
+#macierz zerowa
+ar2 = np.zeros_like(ar1)
+
+#macierz zawierajaca liczby od 0 do 100 z krokiem 20
+ar3 = np.arange(0, 101, 20)
+
+#transpozycja
+ar4 = np.atleast_2d(ar3).T
+
+#iloczyn
+ar5 = ar3*ar4
+
+#zmienienie wymiaru
+ar6 = np.reshape(ar5,(12,3))
+
+#Korzystajac z funkcji np.zeros() zdefiniuj macierz
+#zerowa o wymiarach 7x5. Dodaj 10 do wszystkich elementow
+#macierzy, dodaj do kolumne 1,2,3,2,1,4. Odejmij od wierszy
+#3,2,1,0,1,2,3
+
+ar7 = np.zeros((7,5))
+ar7+=10
+ar7+=[1,2,3,2,1]
+ar7-=np.array([3,2,1,0,1,2,3]).reshape(-1,1)
+
+#reshape zmienie ksztalt tablicy na kolumnowy
+
+fig, ax = plt.subplots(figsize=(10, 10))
+#fig
+im = plt.imshow(ar7, cmap="viridis")
+cbar = plt.colorbar(im, ax=ax)
+ax.set_title("Rozkład wartości macierzy ar7")
+plt.show()
