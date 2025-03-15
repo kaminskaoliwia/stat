@@ -1,4 +1,10 @@
 
+import numpy as np
+import pandas as pd
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 #definiowanie macierzy
 ar1 = np.array([[5,3,6,4],[1,7,4,1],[9,2,8,5]])
 
