@@ -1,0 +1,7 @@
+Prompty do otworzenia programu Jupyter:
+Prosty interfejs:
+jupyter-notebook
+python -m notebook
+Rozbudowany interfejs:
+jupyter-lab
+python -m jupyterlab
