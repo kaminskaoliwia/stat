@@ -1,0 +1,14 @@
+Funkcja gęstości prawdopodobieństwa - funkcja opisująca średnią "ilość prawdopodobieństwa"
+Dystrybuanta - funkcja określająca prawdopodobieństwo tego, że zmienna losowa X przyjmie wartości mniejsze lub równe od podanej wartości
+Prawdopodobieństwo, że funkcja przyjmie wartość w danym przedziale liczymy poprzez całkę ograniczoną z funkcji gęstości prawdopodobieństwa
+
+Rozkład normalny (Gaussa)
+- dwa parametry (wartość oczekiwania - przesunięcie na osi x bez zmiany kształtu i odchylenie standardowe - bez zmiany położenia zmiana kształtu)
+
+Rozkład Gamma
+- dwa parametry (parametr kształtu k - im k >> tym bardziej dane są skupione wokół wartości oczekiwanej, oraz parametr skali theta - im >> tym bardziej jest rozsunięty)
+- np. zmienność cen w akcji
+
+Rozkład Wykładniczy
+- parametr intensywności lambda, modelowanie czasu 
+- czas życia produktu
